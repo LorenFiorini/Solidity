@@ -1,0 +1,103 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_victimContract",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "victimContract",
+				"outputs": [
+					{
+						"internalType": "contract Telephone",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Ethernaut - Levels/4_attack.sol": "Attack"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Ethernaut - Levels/4_Telephone.sol": {
+			"keccak256": "0x65954b20b28e1aa04b8ac22a882ed5e32fd757f0bb23fae93ce18ab5cddb153e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c4fa6207ede4514a0e5015de93137f074bb34554725120bfc657d2aa5ad300cf",
+				"dweb:/ipfs/QmR5piuLKFbo1BiKoTPb6VVRNpNERNhx6p2BETDWRYPCmX"
+			]
+		},
+		"Ethernaut - Levels/4_attack.sol": {
+			"keccak256": "0xfa33528652c9f2b495cc9ef2a322306f1a863b45d662d7e7360795fb2b86dc80",
+			"urls": [
+				"bzz-raw://c1c26aa7a82c1b3675cb9a307e542bcd04d456817db74285935e48d4f1600973",
+				"dweb:/ipfs/QmTCEuZR745e9TPVbhihvzpJ6aaAHJMPFHtYirLucVh5xE"
+			]
+		}
+	},
+	"version": 1
+}

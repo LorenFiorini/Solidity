@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_victimContract",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "flip",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "victimContract",
+				"outputs": [
+					{
+						"internalType": "contract CoinFlip",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Ethernaut - Levels/3_hack.sol": "coinFlipAttack"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Ethernaut - Levels/3_CoinFlip.sol": {
+			"keccak256": "0x08e98fee798778d25831be91ce6ff554706de66b24d775731b3b609b887b119b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://63c41413294d9b2a0b4e0799286db9152ab4fe7db048141cbf9552b2cad49361",
+				"dweb:/ipfs/QmRwEbxM1zWauXyWdaGdyLvnsAKwy8yQSbr3jpcWGK2USK"
+			]
+		},
+		"Ethernaut - Levels/3_hack.sol": {
+			"keccak256": "0x89dd89cd5f6f75ffe1a33ce1194525ec62b62e3ca8cf351f0e7aecc66272e489",
+			"urls": [
+				"bzz-raw://7ac75233f186b6ed8fe405d23c81f3d801f262eeb6b88e04f693c5803efb8be2",
+				"dweb:/ipfs/QmQ1p9mwXwgMhSDCPnkq2eQjwqHj3kk8sSJM54YNWzBbWq"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/math/SafeMath.sol": {
+			"keccak256": "0xa2f576be637946f767aa56601c26d717f48a0aff44f82e46f13807eea1009a21",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://973868f808e88e21a1a0a01d4839314515ee337ad096286c88e41b74dcc11fc2",
+				"dweb:/ipfs/QmfYuZxRfx2J2xdk4EXN7jKg4bUYEMTaYk9BAw9Bqn4o2Y"
+			]
+		}
+	},
+	"version": 1
+}

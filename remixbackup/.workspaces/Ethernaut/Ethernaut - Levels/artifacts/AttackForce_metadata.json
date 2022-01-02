@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "target",
+						"type": "address"
+					}
+				],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Ethernaut - Levels/5_attack.sol": "AttackForce"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Ethernaut - Levels/5_attack.sol": {
+			"keccak256": "0x87f75fe8737ae5d96665e38fd31779df6d7f67b5822f2261b6f048c3d5ab0cab",
+			"urls": [
+				"bzz-raw://38a0741823449b2675b46b459a2d46148808aa818aa35c037f68e124dbacec47",
+				"dweb:/ipfs/QmYqrvMte6XUSHJtPPWpdo2Ps9yK8XNDTVMsYEMy8bFeYx"
+			]
+		}
+	},
+	"version": 1
+}
